@@ -19,6 +19,7 @@ from demoapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.demo_view, name = 'demo_view')
+    path('',views.demo_view, name = 'demo_view'),
+    path('create/', views.demo_create_view, name = 'demo_create_view')
 
 ]
