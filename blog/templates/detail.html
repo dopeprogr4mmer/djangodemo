@@ -1,0 +1,14 @@
+{% extends 'header.html' %}
+{% block content %}
+    <div class="container">
+      <h1>
+          {{ blog.title }}
+      </h1> <br>
+    <p>
+        {{ blog.body|safe|linebreaks }}
+    </p>
+    <h6 class="float-right">
+        {{ blog.date }}
+    </h6>
+    </div>
+{% endblock %}

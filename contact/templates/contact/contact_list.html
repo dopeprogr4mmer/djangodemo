@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for contact in object_list %}
+
+	<p>{{ contact.id }} - <a href = '{{ contact.get_absolute_url }}'>{{ contact.name }}</a></p>
+
+{% endfor %}
+
+
+{% endblock %}
