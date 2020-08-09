@@ -27,7 +27,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1','35.188.213.156','www.travelrealindia.in','travelrealindia.in']
 
-
+#testing
 # Application definition
 
 INSTALLED_APPS = [
